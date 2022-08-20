@@ -34,7 +34,6 @@ console.log(newObject);
 
 
 
-
 //EXPERIMENT
 // getting all values of newArray to onemore array in numerical form.......
 // const onemore = [];
