@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using Alert, Prompt and Confirm.</title>
+</head>
+<body>
+    <h1>Alert, prompt and confirmation.</h1>
+</body>
+
+    <script>
+
+
+        // ALert in in-browser JAVASCRIPT - Does not return anything 
+        alert("This is alert message..");
+
+
+
+        // prompt in JS 
+        let name = prompt("Enter your name below....", "Guest");
+        // console.log("The name of the user is " + name + ".");
+        
+        
+        
+        if (name == "Guest") {
+            console.log("The user did not Enter any name and leave it as 'Guest'");
+        }
+        else{
+            console.log("The name of the user is " + name + ".");
+        }
+        
+        if (prompt) {
+            console.log("User has accepted the prompt.");
+        }
+        else{
+            console.log("User has NOT entered any name.");
+        }
+
+
+
+        // Confirm in JS
+        let deleteoption = confirm("Are you sure to delete this image file");
+        console.log(deleteoption);  //This return true or false.
+
+        if (deleteoption) {
+            console.log("Your image has been deleted successfully.");
+        } 
+        else {
+            console.log("Your image has not been deleted.");
+        }
+
+
+    </script>
+
+</html>

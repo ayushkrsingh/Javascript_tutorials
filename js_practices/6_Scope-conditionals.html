@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope If-else__Switch..</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul class="items">
+                <li>Item-1</li>
+                <li>Item-2</li>
+                <li>Item-3</li>
+                <li>Item-4</li>
+                <li>Item-5</li>
+                <li>Item-6</li>
+                <li>Item-7</li>
+                <li>Item-8</li>
+                <li>Item-9</li>
+                <li>Item-10</li>
+            </ul>
+        </div>
+    </nav>
+</body>
+    <script>
+
+
+        // Now We use let at the place of var for taking variables .
+        
+        let any1 = "Ayush";
+        {
+            let any1 = "CoreCodeStyles";
+            console.log(any1);  // Output= CorecodeStyles
+        }
+            console.log(any1);  // Output= Ayush
+
+        const any2 = "This cannot be changed."
+        // any2 = "I want to change this This cannot be changed."
+        console.log(any2);
+
+
+//                    If_If-else Statements..
+        let age = 7;
+        if (age>18) {
+            console.log(`You can drive a CAR.`);
+        }
+        else if (age==10) {
+            console.log(`You are 10.`);
+        }
+        else if (age==6) {
+            console.log(`You are 6.`);
+        }
+        
+         else {
+            console.log(`You cannot drive a car.`);
+        }
+
+        
+//                   Switch Case Statements..
+
+        const days = 7;
+        switch (days) {
+            case 1:
+                console.log(`Today is Sunday.`);
+                break;
+            case 2:
+                console.log(`Today is Monday.`);
+                break;
+            case 3:
+                console.log(`Today is Tuesday.`);
+                break;
+            case 4:
+                console.log(`Today is Wednesday.`);
+                break;
+            case 5:
+                console.log(`Today is Thursday.`);
+                break;
+            case 6:
+                console.log(`Today is Friday.`);
+                break;
+            case 7:
+                console.log(`Today is Saturday.`);
+                break;
+        
+            default:
+                console.log(`Invalid Day Name.`);
+                break;
+        }
+
+    </script>
+</html>

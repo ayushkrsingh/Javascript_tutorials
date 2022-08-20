@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <details>
+        <summary>Ayush</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae ratione dolores sit velit ipsam, iste earum officia! Natus, labore, consequuntur ab corrupti dolor cum animi odit reprehenderit perferendis illo amet ex soluta? Est pariatur officia neque tempora dolorum voluptatibus, veritatis deserunt. Qui ex tempore voluptates. Deserunt, ut omnis ullam illum, distinctio autem itaque vitae perspiciatis nesciunt voluptates unde ex exercitationem. Delectus, eveniet! Unde autem maiores hic tempore necessitatibus possimus fuga quod sunt itaque laboriosam facilis, voluptatem sequi voluptate non expedita sit? Modi optio unde dicta repellendus recusandae, quos sint reprehenderit quia sequi consectetur voluptas iusto maiores ipsum molestias exercitationem?</p>
+    </details>
+    <bdo dir="rtl">Ayush</bdo>
+    <br>
+    <kbd>Ctr</kbd> + <kbd>C</kbd>
+</body> 
+
+<script>
+
+
+    var str = "This is a string.";
+    console.log(str);
+
+
+    // NOTE = Numbering of a string starts from 0,1,2,3,4,5,6,7,.....etc..  NOT FROM 1,2,3,4,5,6.....
+    // FOR EXAMPLE = This is a string.
+    // Then we count the letter 'T' at the 0th position and the letter 'H' at the 1st position.
+    // Example to find the first and last occurence of any substring like- 'a''b''i''v' or any alphabet that is in the string are given by codind JS.
+    
+    // First occurence of a substring..
+    var position = str.indexOf('is');
+    console.log(position);     //output is 12 because the count of the first occurence of 'i' in the string "This is a string." is 13.
+
+    // Last occurence of a substring..
+    var position = str.lastIndexOf('i');
+    console.log(position);     //output is 13 because the count of the last occurence of 'i' in the string "This is a string." is 13.
+
+
+    // Substring from a String
+    var substring1 =     str.slice(1,12);       //SAME values
+    var substring2 = str.substring(1,12);// But slice,substring
+    var substring3 =    str.substr(1,12);// are same and substr 
+    console.log(substring1);        // is diffreent..
+    console.log(substring2);
+    console.log(substring3);
+    
+
+    var replacestr = str.replace('string', 'Ayush');
+    console.log(str);
+    console.log(replacestr);
+
+    
+
+    console.log(str.toUpperCase());
+    console.log(str.toLowerCase());
+
+
+    var newstr = str.concat(' This other string.')
+    console.log(newstr);
+
+    var strwithspaces = "      Ayush  is    A  good    boy    ";
+    console.log(strwithspaces);
+    console.log(strwithspaces.trim());  //Trim the extra space in the begnining or in the end...
+
+    var char = str.charAt(8);
+    // var char = str.charCodeAt(1);   //Not very much imp....
+    console.log(char);
+
+
+</script>
+
+</html>

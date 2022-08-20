@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Objects in JS</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Learn JS.</h2>
+    </div>
+</body>
+    <script>
+
+
+        let any1 = 28;
+        let any3 = "string";
+        let any4 = true;
+        let any5 = null;
+        let any6 = undefined;
+
+        let employee = {
+            name: "Ayush",
+            salary: 100000,
+            channel: "CoreCodeStyles",
+            "channel2": "Ayush 7707"
+        }
+        console.log(employee);
+
+        let any7 = [44, 38, 89.5, undefined, 'Ayush CoreCodeStyles'];
+        console.log(any7);
+        let array2 = [...any7];
+        console.log(array2)
+
+
+        //To print the value present at ay index number :----   
+        console.log('The value which is present on the index 2 is ' + any7[2]);
+        console.log('The value which is present on the index 0 is ' + any7[0]);
+
+        let any8 =  new Array(21, 33, 18, "Ayush", undefined);
+        console.log(any8);
+
+        any8 = any8.sort(); // Numbers smallest to largest.. 
+        console.log(any8);
+
+        any8.push(null, "This is pushed.");    //It will add null and This is pushed. in the last of the array obj.. 
+        console.log(any8);
+
+        
+
+    </script>
+</html>

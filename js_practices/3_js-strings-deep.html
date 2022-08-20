@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript|String-and its Methods</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Strings Knowledge</h1>
+        <div id="content"></div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beataeovident vero eius libero voluptatum unde dicta quibusdam! Iure sed, iusto impedit fuga temporibus ea tempore esse consectetur perferendis minus sapiente provident omnis ipsa quisquam voluptatem, culpa neque officia necessitatibus soluta obcaecati deleniti illum! Obcaecati amet quos assumenda sunt minima optio debitis nemo ad. Magnam animi sed consectetur, voluptates repudiandae deleniti blanditiis fugit sit, saepe hic voluptas </p>
+    </div>
+</body>
+
+    <script>
+        var name = "Ayush";
+        console.log(`${name} is puting the variables.\n\n`);    // ${variable} is used for puting the value of that variable in the sentence. 
+        var string1 = "Ayush's";    // "" is used when you have to type '' btw. the sentense.
+        var string2 = 'Ayush1 says-"Do you come tommmrow" ';  // '' is used when you have to type "" btw. the sentense.
+        var string3 = `Ayush1's channel comment-"very attractive" `; // `` is used when you have to use both  '' and ""  btw. the sentense.
+        var channel = "CoreCodeStyles";
+        var message = 'Ayush is a programmer';
+        console.log(`Hello \t I am learning JS by \nCodewithHarry`);
+        console.log((name + channel + message) + "\n\n");  // We can add two or more strings using this method..
+        console.log(`${name} \n\n`);
+        
+        var combine = `${name} is a 'good' boy "and" he has a channel called CoreCodeStyles`;
+        console.log(combine + "\n\n");
+
+        var lenth = message.length;    // to find the length of any string..
+        console.log(`Length of the message is ${lenth}.`); 
+
+        var x = new String("hello");
+        console.log(x);
+
+        document.getElementById('content').innerHTML = '<h2>Ayush Is A Good Boy.</h2>';
+    </script>
+
+</html>
