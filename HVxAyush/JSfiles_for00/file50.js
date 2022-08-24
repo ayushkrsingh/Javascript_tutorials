@@ -1,19 +1,38 @@
 // block scope vs function scope
 
 
+
+
 // let and const are block scope 
-// var is function scope
 
 {
-    let fname = "Ayush";
+    let fname = "Ayush";    // let/const
+    console.log(fname); // can access fname (Ayush)
 }
-console.log(fname);
-
-
+// console.log(fname);     // cannot access fname
 
 {
-
+    let fname = "Harshit";  // let/const
+    console.log(fname); // can access fname (Harshit)
 }
 
 
-// 5:44:44
+let fname = "Tom";  // let/const
+console.log(fname);     // can access fname (Tom)
+
+
+
+
+
+
+
+// // var is function scope
+
+{
+    var fname2 = "Ayush";
+    console.log(fname2);    
+}
+
+{
+    console.log(fname2);    // can access fname2 as var is func scope
+}
