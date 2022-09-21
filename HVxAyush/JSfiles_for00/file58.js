@@ -13,4 +13,4 @@ const evenNums = numbers.filter((number)=>{
     return number%2===0;
 })
 
-console.log(evenNums);
+console.log(evenNums);  //creates a new array containing the returning values of the function..
