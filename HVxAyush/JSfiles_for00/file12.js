@@ -1,4 +1,4 @@
-// booleans 7 comparison operator
+// booleans & comparison operator
 
 // let num1 = 423;
 // let num2 = 342;

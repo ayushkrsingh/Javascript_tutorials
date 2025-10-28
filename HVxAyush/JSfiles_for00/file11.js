@@ -5,7 +5,7 @@
             // %%%%1st - Undefined
 
 // let fname;
-// // const fname       ---->   GIVES ERROR
+// // const fname;       ---->   GIVES ERROR
 // console.log(typeof fname);  // -> undefined
 // fname = "Ayush";
 // console.log(typeof fname, fname);

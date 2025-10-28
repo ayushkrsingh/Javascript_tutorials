@@ -55,7 +55,7 @@ console.log(giveFirstChar("TomBhai"));
 const findtarget = function(MyArray, MyTarget){
     for (let i=0; i<MyArray.length; i++) {
         if (MyArray[i] === MyTarget) {
-            return i;
+            return i+1;
         }
     }
     return false;

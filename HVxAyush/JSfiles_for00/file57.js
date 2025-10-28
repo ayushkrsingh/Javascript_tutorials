@@ -31,7 +31,17 @@ const users = [
     {fname: "Hero", age: 23},
 ]
 
-const userName = users.map((user)=>{
+// const userName = users.map((user)=>{
+//     return user.fname;
+// })
+// console.log(userName);
+
+
+// OR
+
+
+const funcFname = function (user) {
     return user.fname;
-})
-console.log(userName);
+}
+const arrayFormed = users.map(funcFname);
+console.log(arrayFormed)

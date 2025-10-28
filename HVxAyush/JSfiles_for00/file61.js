@@ -2,17 +2,19 @@
 
 const MyArray = ["Hello", "Ayush", "Lion", "Billi", "Hero"]
 
-// function Len4(string){
-//     return string.length === 4;
-// }
+function Len4(string){
+    return string.length === 4;
+}
+const ans1 = Len4("Ayus"); // true
+
+// const ans1 = MyArray.find(Len4);
+console.log(ans1);   // first item with 4 letters , no matter kitne hai aage
+
+
 // $$$    OR
-const ans = MyArray.find((string) => string.length===4);
+const ans2 = MyArray.find((string) => string.length===4);
+console.log(ans2);
 
-// const ans = Len3("Ayu"); // true
-// console.log(ans);
-
-// const ans = MyArray.find(Len4);
-console.log(ans);   // first item with 4 letters , no matter kitne hai aage
 
 
 

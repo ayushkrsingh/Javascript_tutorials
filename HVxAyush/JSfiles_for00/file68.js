@@ -50,7 +50,7 @@ person.set(1, 'one');   // here 1 will remain as number unlike in objects which 
 // }
 
 // console.log("For setting array as a key in maps");
-// let a = new Map();
+// const a = new Map();
 // let key = ['x', 'y'];       // key should be a separate variable
 // a.set(key, "variables");
 // console.log(a.get(key));

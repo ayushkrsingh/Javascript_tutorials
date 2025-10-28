@@ -2,7 +2,7 @@
 
 // let age = 17;
 // if (age>=18) {
-//     console.log("YOU CAN PLAY FF");
+//     console.log("YOU CAN RIDE");
 // }
 // else{
 //     console.log("YOU SHOULD WATCH POGO");

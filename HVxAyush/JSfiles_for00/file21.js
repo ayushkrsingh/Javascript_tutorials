@@ -15,8 +15,8 @@
 // let num = 10;
 // let total = 0;
 
-// total = total + 2;      // = 1 + 2
 // total = total + 1;      // = 0 + 1
+// total = total + 2;      // = 1 + 2
 // total = total + 3;      // = 3 + 3
 // total = total + 4;      // = 6 + 4
 // total = total + 5;      // = 10 + 5
@@ -37,7 +37,8 @@ let total = 0;
 let i = 0;
 
 while (i<=100) {
-    total = total + i
+    total = total + i;
+    console.log(total)
     i++;
 }
 console.log(total);

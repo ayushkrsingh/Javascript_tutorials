@@ -12,7 +12,7 @@
     
 // }
 
-//  To check both if in same if ------------------
+//  To check both if in same if ------------------  AND OPERATOR ----
 
 // if (fname[0] === "A" && age>=15) {
 //     console.log("Name starts with A and is 15 or above");
@@ -20,6 +20,9 @@
 //     console.log("Condition is false!!!");
     
 // }
+
+
+// ------------------  OR OPERATOR --------------
 
 let fname = "yush";
 let age = 32;

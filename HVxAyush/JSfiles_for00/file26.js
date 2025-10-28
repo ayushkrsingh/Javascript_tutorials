@@ -2,8 +2,8 @@
 //  reference type
 
 
-// let array = ["Ayush", 32, 65.985, null, true, 0, undefined];
-// console.log(array);
+let array = ["Ayush", 32, 65.985, null, true, 0, undefined];
+console.log(array);
 
 let fruits = ["Apples", "Mangoes", "Grapes", "Bananas", ];
 let obj = {};       // object literal
@@ -13,8 +13,8 @@ let obj = {};       // object literal
 // console.log(fruits);
 console.log(typeof fruits);     // object
 console.log(typeof obj);    // object
-console.log(Array.isArray(fruits)); // true
-console.log(Array.isArray(obj));    // false
+console.log(Array.isArray(fruits)); // true   --> this is an array
+console.log(Array.isArray(obj));    // false  --> this is not an array so false
 
 
 

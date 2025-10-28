@@ -3,7 +3,7 @@ const person = {
     name: "Ayush",
     age: 15,
     hobbies: ["coding", "learning", "sleeping"],
-    "my cars": ["ferarri", "tesla"]     // space without commas are not allowed
+    "my cars": ["ferarri", "tesla"]     // space without inverted-commas i.e., "" are not allowed
 };
 console.log(person["my cars"]);
 

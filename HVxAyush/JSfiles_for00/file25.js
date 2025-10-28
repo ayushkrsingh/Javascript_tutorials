@@ -8,7 +8,7 @@
 
 //  NOWWWW
 
-let i = 14;
+let i = 21;
 do{
     console.log(i);         // executed, no matter the condition is false 
     i++;

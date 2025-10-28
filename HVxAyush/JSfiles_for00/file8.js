@@ -9,10 +9,10 @@
 // > BigInt
 // > Symbol
 
-// let age = 44;
-// let fname = "Ayush";
+let age = 44;
+let fname = "Ayush";
 
-// console.log(typeof age);  // number
+console.log(typeof age);  // number
 // console.log(typeof fname);  // string
 // console.log(typeof "y3iu3"); //  string
 
@@ -32,7 +32,7 @@
 // console.log(typeof mystr);
 
 //  ^^^^^^^^^^^^^^^    OR     ^^^^^^^^^^^^^^^^
-let age = 32;
+// let age = 32;
 age = String(age);
 console.log(typeof age);
 // And VISE_VERSA

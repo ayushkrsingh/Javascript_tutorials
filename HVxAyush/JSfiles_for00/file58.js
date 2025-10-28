@@ -14,3 +14,10 @@ const evenNums = numbers.filter((number)=>{
 })
 
 console.log(evenNums);  //creates a new array containing the returning values of the function..
+
+
+
+// const evennums = numbers.filter(function(number){       //it can also be a function expression, not always the arrow function like the upper one
+//     return number%2 === 0;
+// })
+// console.log(evennums);

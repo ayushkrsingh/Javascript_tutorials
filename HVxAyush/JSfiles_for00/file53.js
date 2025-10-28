@@ -14,7 +14,7 @@ const person = {
 //     console.log(obj.age);
 // }
 
-function Details({fname, gender, age}){
+function Details({fname, gender, age}){     // parameter destructuring
     console.log(fname);
     console.log(gender);
     console.log(age);

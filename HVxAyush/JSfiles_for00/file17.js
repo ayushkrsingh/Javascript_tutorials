@@ -6,7 +6,7 @@
 // 25 -- too low
 // 45 -- too high
 
-let winno = 32
+let winno = 32;
 let userguess = +prompt("Guess a number");  // +  ----- to change type of prompt num from string to number
 // console.log(typeof userguess, userguess);    
 

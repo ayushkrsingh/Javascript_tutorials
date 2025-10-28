@@ -3,14 +3,15 @@
 function singAsong(){
     console.log("Happy Badday to YOUUU !!!!!!!");
 }
+singAsong();
 
 function threePLUSnine(){
     // console.log(3+9);    //no need to console.log when calling
-    return 3+9;     // will have to use console.loh while calling
+    return 3+9;     // will have to use console.log while calling
 }
 // threePLUSnine();     //if i had printed that before
 
-// console.log(threePLUSnine());   //when i have returned in func
+console.log(threePLUSnine());   //when i have returned in func
 // OR
 // const returnedValue = threePLUSnine();
 // console.log(returnedValue);
@@ -28,14 +29,14 @@ function sumTWOnums(num1, num2){    // num1, num2 are parameters
 function sumTHREEnums(num1, num2, num3){
     return num1+num2+num3;
 }
-// console.log(sumTHREEnums(3,54,4));
+console.log(sumTHREEnums(3,54,4));
 
 
 
 //isEven function
 // input me 1 number lega
 // output me true or false
-//  |
+//
 
 // function isEven(yourNUM){
 //     if (yourNUM%2 === 0) {
@@ -49,7 +50,7 @@ function sumTHREEnums(num1, num2, num3){
 function isEven(yourNUM){
     return yourNUM % 2 === 0;
 }
-// console.log(isEven(442));   // I did IT !!!!
+console.log(isEven(442));   // I did IT !!!!
 
 
 
@@ -66,10 +67,10 @@ function giveFirstChar(yourString){
 function findtarget(MyArray, MyTarget){
     for (let i=0; i<MyArray.length; i++) {
         if (MyArray[i] === MyTarget) {
-            return i;
+            return i+1;   // returns the place (1st, 2nd 3rd 4th etc) of MyTarget in MyArray, here 3 is on the 5th place so >> return (index of array for 3  plus1) which gives the location on 3 in MyArray which is 5th place... 
         }
     }
-    return false;
+    return "Not found in MyArray";
 }
-const array1 = [4,9,46,7,3,0];
+const array1 = [4,9,46,"Ayush",3,0];
 console.log(findtarget(array1,3));

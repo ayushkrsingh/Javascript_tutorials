@@ -7,7 +7,7 @@ function myApp(){
     // const myvar = "Value1";
 
     function myfunc(){
-        // const myvar = "value85";
+        const myvar = "value85";
         const myfunc2 = () => {
             console.log("Inside myfunc", myvar);
         }
@@ -16,7 +16,7 @@ function myApp(){
 
     // const myfunc3 = () => {}
 
-    console.log(myvar);
-    myfunc();
+    console.log(myvar);    //        "Value1"
+    myfunc();              //        "Inside myfunc value85"
 }
 myApp();

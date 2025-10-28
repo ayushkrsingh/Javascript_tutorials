@@ -7,14 +7,14 @@ const person = {
 };
 
 // for in loop
-// for (const key in person) {
-//     // console.log(`${key} : ${person[key]}`);      //OR
-//     console.log(key, " : ", person[key]);
-// }
+for (const keyu in person) {
+    // console.log(`${key} : ${person[key]}`);      //OR
+    console.log(keyu, " : ", person[keyu]);
+}
 
 
 // Object.keys
-// console.log(Object.keys(person));       // gives an array
+console.log(Object.keys(person));       // gives an array
 
 
 // for of loop

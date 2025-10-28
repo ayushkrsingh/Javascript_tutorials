@@ -13,3 +13,4 @@ const app = () => {
     console.log(multTWOnum(2,4));
 }
 app();
+// addTWOnum(2,4);   // this will not work because addTWOnum is not defined in the global scope

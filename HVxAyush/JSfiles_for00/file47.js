@@ -17,5 +17,5 @@ function hello(){
 // var hello2 = "Hello World";
 
 
-console.log(hello2);    // Error (in the case of var)
+console.log(hello2);    // Error (in the case of let)
 let hello2 = "Hello World";

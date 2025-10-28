@@ -1,11 +1,16 @@
 // Sets     --> it is Iterable
 // store data
+// set ke paranthesis me koi iterable hi store krenge -> string, array...
 // sets have its own methods
 // no index-based access
 // order is not guranteed
 // unique items only (no duplicates allowed)
 
-// const myWord = new Set("abcd");  
+const myWord = new Set("abcd");
+console.log(myWord)
+
+// const numset = new Set(1234556);  //ERROR because numbers are not iterable
+
 // const numbers = new Set([1, 2, 3, 3, 4, 5]);    // will ignore the repeated numbers like 3 in this case
 // console.log(numbers);
 // console.log(numbers[2]);    //undefined coz order is not guranteed 
@@ -20,15 +25,15 @@ mynumbers.add(4);
 mynumbers.add(5);
 mynumbers.add(6);
 
-// const items = ['item1', 'item2', 'item3'];
-// mynumbers.add(items);
+const items = ['item1', 'item2', 'item3'];
+mynumbers.add(items);
 // mynumbers.add(items);    // ignore this
 
-// mynumbers.add("item4");
-// mynumbers.add("item4");     // ignore this
+mynumbers.add("item4");
+mynumbers.add("item4");     // ignore this
 
-// mynumbers.add(["item5", "item6"]);
-// mynumbers.add(["item5", "item6"]);  // will include this beacuse this has a different adderess in memory
+mynumbers.add(["item5", "item6"]);
+mynumbers.add(["item5", "item6"]);  // will include this beacuse this has a different adderess in memory
 
 
 console.log(mynumbers);

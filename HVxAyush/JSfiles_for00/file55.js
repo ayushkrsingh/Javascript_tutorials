@@ -7,4 +7,5 @@ function myfunc(){
     return hello;
 }
 const ans = myfunc();
-console.log(ans());
+// console.log(ans());
+console.log(ans); // Output: [Function: hello]

@@ -35,8 +35,10 @@ const user1 = createUser("Ayush", "KS", 13, "ayush@gmail.com", "India");
 const user2 = createUser("Tom", "Cruise", 30, "tom@gmail.com", "UK");
 const user3 = createUser("Tony", "Stark", 23, "ironman@gmail.com", "USA");
 
-console.log(user1);     //now each user have a [[prototype]] of userMethods object from where it will access the methods
-// console.log(user1.about());
+// console.log(user1.__proto__);     //now each user have a [[prototype]] of userMethods object from where it will access the methods
+console.log(user1.about());
 // console.log(user3.contact());
+// console.log(user1.is18());
 
 
+// now go to file83.js

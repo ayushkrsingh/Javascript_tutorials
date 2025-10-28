@@ -9,10 +9,10 @@
     let fname = "Ayush";    // let/const
     console.log(fname); // can access fname (Ayush)
 }
-// console.log(fname);     // cannot access fname
+// console.log(fname);     // cannot access fname 
 
 {
-    let fname = "Harshit";  // let/const
+    const fname = "Harshit";  // let/const
     console.log(fname); // can access fname (Harshit)
 }
 

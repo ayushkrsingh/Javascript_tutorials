@@ -1,11 +1,11 @@
 // rest parameters
 
-// function myfunc(a, b, ...c){    // rest value will be stored in c as an array
-//     console.log("A is ", a);
-//     console.log("B is ", b);
-//     console.log("C is ", c);
-// }
-// myfunc(3, 4, 5, 6, 7, 8, 9);
+function myfunc(a, b, ...c){    // rest value will be stored in c as an array
+    console.log("A is ", a);
+    console.log("B is ", b);
+    console.log("C is ", c);
+}
+myfunc(3, 4, 5, 6, 7, 8, 9);
 
 
 // Work given by HV
