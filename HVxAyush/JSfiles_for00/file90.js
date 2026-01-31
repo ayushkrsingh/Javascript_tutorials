@@ -18,4 +18,4 @@ class Person{
 const person1 = new Person("Ayush", "KrSingh", 15);
 person1.fullname = "Harshit Malik";     // now person1's firstname and lastname is changed to Harshit Malik respectively
 console.log(person1);
-// console.log(person1.fullname);
+console.log(person1.fullname);

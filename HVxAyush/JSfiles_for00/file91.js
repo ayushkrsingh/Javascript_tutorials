@@ -11,12 +11,13 @@ class Person{
         this.lastname = lastname;
         this.age = age;
     }
-    get fullname(){ 
-    }
     set fullname(fullname){
         const [firstname, lastname] = fullname.split(" ");
         this.firstname = firstname;
         this.lastname = lastname;
+    }
+    get fullname(){ 
+        return `${this.firstname} ${this.lastname}`
     }
     eat(){
         return `${this.firstname} is eating.`;
@@ -30,3 +31,4 @@ console.log(Person.classInfo());   // accessing static method using class name
 // console.log(person1.classInfo());   // error: cannot access static method using object of the class
 console.log(Person.cls_property);  // accessing static property using class name
 console.log(Person);
+console.log(person1.fullname);  // accessing non-static method(technically a property because it's a getter) using object of the class
