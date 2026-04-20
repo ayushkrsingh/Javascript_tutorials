@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.grandparent{
+    background: #e9d3ff;
+    color:#373737;
+}
+.parent{
+    background: #b061ff;
+}
+.child{
+    background: #420085;
+}
