@@ -44,5 +44,5 @@ const grandparent = document.querySelector(".grandparent");
 
 grandparent.addEventListener("click", (e)=>{
     // console.log("You clicked something")
-    console.log(e)
+    console.log(e.target);       // now as we have added event listener to grandparent, it will work for all the children of grandparent as well. so we can check which element is clicked by using e.target
 })
