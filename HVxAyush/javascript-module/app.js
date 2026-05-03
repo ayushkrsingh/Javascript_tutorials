@@ -8,4 +8,10 @@ console.log(fname, age);
 
 const person1 = new Person("Franklin", "Clinton", 28);
 console.log(person1);
-person1.info()
+person1.info();
+
+
+
+
+//////////////////  SUCCESSFULLY DONE JS 100%   ///////////////////
+//////// PROJECTS INCOMINGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG------------------
